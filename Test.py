@@ -203,6 +203,7 @@ def main():
         elif snake.get_head_position() in snake.snake_position():
             screen.fill(BOARD_BACKGROUND_COLOR)
             snake.reset()
-            
+
+
 if __name__ == '__main__':
     main()
